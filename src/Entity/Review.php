@@ -41,7 +41,6 @@ class Review
     {
         $this->publicationDate = new \DateTime();
     }
-
     public function getId(): ?int
     {
         return $this->id;
